@@ -1,0 +1,118 @@
+html {
+   min-width: 320px;
+   margin: 0 auto;
+   overflow-x: hidden;
+   }
+
+body {
+   font-family: 'Raleway Regular', sans-serif;
+   margin: 0;
+   
+}
+img {
+   width: 100%;
+   height: auto;
+ 
+}
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+h4, h3 {
+   font-family: "OpenSans Bold", sans-serif;
+}
+.container {
+   width: 100%;
+   max-width: 1170px;
+   margin-left: auto;
+   margin-right: auto;
+   }
+@media (max-width: 1024px) {
+   .container {
+      max-width: 992px;
+}
+}
+@media (max-width: 992px) {
+   .container {
+      max-width: 932px;
+}
+}
+@media (max-width: 576px) {
+   .container {
+      max-width: 546px;
+   }
+}
+@media (max-width: 320px) {
+   .container {
+      max-width: 288px;
+   }
+}
+.button {
+   height: 58px;
+   color:  white; 
+   font-family: "OpenSans SemiBold", sans-serif;
+   font-size: 18px;
+   line-height: 100%;
+   transition: all 0.2s; 
+}
+@media (max-width: 320px) {
+   .button {
+      height: 50px;
+}
+}
+.button:hover {
+	border: 3px solid #AB4949;
+   cursor: pointer;
+}
+::selection {
+   background-color: #e38585;
+   color: white
+}
+.title {
+   font-size: 36px;
+   text-transform: uppercase;
+   text-align: center;
+   margin: 0 0 45px 0;
+   padding-top: 100px;
+   padding-bottom: 50px;
+}
+@media (max-width: 1024px) {
+   .title {
+      font-size: 24px;
+      margin: 0 0 32px 0;
+      padding-bottom: 45px;
+      }
+}
+@media (max-width: 320px) {
+   .title {
+      padding: 45px 0px;
+      margin: 0 0 24px 0;
+}
+}
+
+.text {
+   color: rgba(204, 204, 204, 0.671);
+   text-align: center;
+   margin: 0;
+   font-size: 18px;
+}
+@media (max-width: 1024px) {
+   .text {
+      font-size: 14px;
+}
+}
+.same-button {
+   width: 370px;
+   color:#FFFFFF;
+   padding: 0;
+   border: 0;
+   font-family: "OpenSans SemiBold";
+   font-size: 18px;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   border-radius: 5px;
+}
+input:focus {
+   color: #7b1919;
+ }

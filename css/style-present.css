@@ -1,0 +1,267 @@
+.present {
+   background-image: url(../images/pexels3.png);
+   background-size: 100% 100%;
+   background-size: cover;
+}
+@media (max-width: 320px) {
+   .present {
+      background-size: auto auto;
+   }
+}
+
+
+.present__image {
+   width: 270px;
+   height: 100px;
+   padding-top: 206px;
+   margin-bottom: 50px;
+}
+@media (max-width: 1024px) {
+   .present__image {
+      width: 183px;
+      height: 75px;
+      padding-top: 136px;
+      margin-bottom: 37.6px;
+   }
+}
+@media (max-width: 320px) {
+   .present__image {
+   display: none;
+   }
+}
+
+.present__title {
+   margin: 0 0 97px 0;
+   font-size: 48px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+}
+@media (max-width: 1024px) {
+   .present__title {
+      font-size: 36px;
+      margin: 0 0 72.5px 0;
+   }
+}
+@media (max-width: 320px) {
+   .present__title {
+      font-size: 36px;
+      padding-top: 84px;
+      margin: 0 0 86px 0;
+   }
+}
+.present__text:before {
+   content: "";
+   position: absolute;
+   top: -42px;
+   left: 0;
+   width: 170px;
+   height: 1px;
+   background: #FFFFFF;
+}
+@media (max-width: 1024px) {
+   .present__text:before {
+      top: -31px;
+      width: 115px;
+   }
+}
+@media (max-width: 320px) {
+   .present__text:before {
+      top: -42px;
+      left: calc(50% - 67px);
+      width: 134px;
+   }
+}
+
+.present__text {
+   position: relative;
+   color: #FFFFFF;
+   text-align: left;
+   margin-bottom: 42px;
+   margin-top: 0;
+   width: 40%;
+}
+@media (max-width: 1024px) {
+   .present__text {
+      font-size: 14px;
+      margin-bottom: 31px;
+   }
+}
+@media (max-width: 320px) {
+   .present__text {
+      text-align: center;
+      margin-bottom: 42px;
+      margin-top: 0;
+      width: 100%; 
+}
+}
+.button_white {
+   width: 270px;
+   background-color: #ffffff00;
+   border: 2px solid #ffffff; 
+   margin-bottom: 185px;
+   padding: 0;
+}
+@media (max-width: 1024px) {
+   .button_white {
+      width: 183px;
+      height: 50px;
+      margin-bottom: 132px;
+   }
+}
+@media (max-width: 320px) {
+   .button_white {
+      width: 288px;
+      margin-bottom: 56px;
+}
+}
+.present__items {
+   width: 57.3%;
+}
+@media (max-width: 1024px) {
+   .present__items {
+      margin-left: 100px;
+      width: 45.7%;
+   }
+}
+@media (max-width: 320px) {
+   .present__items {
+      margin-left: 0px;
+      width: 100%;
+      text-align: center;
+   }   
+}
+.present__container {
+   display: flex;
+}
+@media (max-width: 320px) {
+   .present__container {
+      display: block;
+   }   
+}
+.present__form-block {
+   background-color: #FFFFFF;
+   color: #333333;
+   width: 40%;
+   height: 47%;
+   margin: 207px 0px 0px 30px;
+   border-radius: 15px;
+}
+
+@media (max-width: 1024px) {
+   .present__form-block {
+      width: 40%;
+      margin-top: 137px;
+      margin-left: 37px;
+   }
+}
+@media (max-width: 320px) {
+   .present__form-block {
+      width: 100%;
+      margin: 0; 
+      
+   }  
+}
+@media (max-width: 320px) {
+   .present__form{
+      margin-bottom: 50px;
+   }  
+}
+
+.present__form__title-red {
+   color: #EC7979;
+}
+.present__form__title {
+   padding: 30px 0px;
+   text-transform: uppercase;
+   font-size: 24px;
+   text-align: center;
+   margin: 0px 0px 45px 0px;
+}
+@media (max-width: 1024px) {
+   .present__form__title {
+      font-size: 18px;
+      padding: 33px 0px 29px 0px;
+
+   }
+}
+@media (max-width: 320px) {
+   .present__form__title {
+      padding: 34px 0px;
+      margin: 0;
+      font-size: 14px; 
+}
+}
+
+.present__form__frame:first-child {
+   padding-top: 0px;
+}
+.present__form__frame {
+   
+   padding-left: 0;
+   padding-right: 0;
+   padding-bottom: 5px;
+   padding-top: 27px;
+   margin: 0px 50px; 
+   width: 79%;
+   border-top: 0;
+   border-right: 0;
+   border-bottom: 1px solid #BDBDBD;
+   border-left: 0;    
+}
+@media (max-width: 576px) {
+   .present__form__frame {
+      width: 65%;
+   }
+}
+@media (max-width: 320px) {
+   .present__form__frame {
+      width: 83%;
+      margin: 0px 28px 0 20px;
+   }
+}
+
+.present__form__input {
+   padding: 6px 6px 10px 6px;
+   border: 0;
+   width: 80%;
+   font-family: "OpenSans Regular";
+   font-size: 14px;
+   color:#222;
+
+   
+}
+
+.present__button {
+   margin-top: 75px;
+   padding: 0;
+   width: 100%;
+   height: 60px;
+   background: #EC7979;
+   color:#FFFFFF;
+   font-family: "OpenSans SemiBold";
+   font-size: 15px;
+   border: 0;
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+}
+@media (max-width: 320px) {
+   .present__button {
+      margin-top: 51px;
+      
+   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+textarea {
+   padding: 20px;
+}

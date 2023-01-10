@@ -1,0 +1,126 @@
+.social {
+   background-color:#F8EFEF;
+
+}
+.social__list__blocks {
+   display: flex;
+   gap: 35px;
+}
+@media (max-width: 320px) {
+   .social__list__blocks {
+      display: block;
+      gap: 20px;
+      text-align: center;
+   }
+}
+
+.social__list__items {
+   width: 40%; 
+}
+@media (max-width: 320px) {
+   .social__list__items {
+      width: 100%; 
+   }
+}
+
+.social__list__icons {
+   display: flex;
+   align-items: center;
+   gap: 30px;
+   width: 58%;
+}
+@media (max-width: 1024px) {
+   .social__list__icons {
+      gap: 21px;
+      align-items: none;
+      padding-top: 25px;
+      padding-bottom: 15px;
+   }
+}
+@media (max-width: 320px) {
+   .social__list__icons {
+      width: 100%;
+      gap: 17px;
+      padding: 0 0 44px 0;
+
+   }
+}
+.social__item__title {
+   font-size: 24px;
+   margin-top: 15px;
+   margin-bottom: 33px;
+   padding: 0;
+}
+
+
+@media (max-width: 1024px) {
+   .social__item__title {
+      font-size: 18px;
+      margin-top: 14px;
+      margin-bottom: 27px;
+   }
+}
+@media (max-width: 320px) {
+      .social__item__title {
+         margin-top: 0px;
+         padding-top: 41px; 
+         margin-bottom: 23px;
+         font-size: 18px;
+
+   }
+}
+.social__item__text {
+   margin-bottom: 18px;
+   font-size: 18px;
+}
+@media (max-width: 320px) {
+   .social__item__text {
+      margin-left: 17px;
+      margin-bottom: 32px;
+      font-size: 14px;
+
+   }
+}
+@media (max-width: 1024px) {
+   .social__item {
+      font-size: 14px;
+      margin-bottom: 13px;
+   }
+}
+
+.social__image {
+      width: 70px;
+      height: 68px;
+   }
+@media (max-width: 1024px) {
+   .social__image {
+      width: 64px;
+      height: 64px;
+   }
+}
+@media (max-width: 320px) {
+   .social__image {
+      width: 26px;
+      height: 26px;
+
+   }
+}
+ 
+.social__link {
+   padding: 80px 0px 30px 0px;
+   background: none;
+}
+@media (max-width: 1024px) {
+   .social__link  {
+      padding: 70px 0px 13px 0px;
+   }
+}
+@media (max-width: 320px) {
+   .social__link  {
+      padding: 13px 0px;
+
+   }
+}
+
+
+
